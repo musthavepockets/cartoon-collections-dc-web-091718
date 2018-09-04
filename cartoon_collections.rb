@@ -20,10 +20,6 @@ def find_the_cheese(snacks)
   snacks.include? do |snack| 
     cheese_types.find do |cheese|
       cheese.eql? snack
-        
-      else
-        nil
-      end
     end
   end
 end
