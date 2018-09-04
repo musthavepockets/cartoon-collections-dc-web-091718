@@ -19,7 +19,7 @@ def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
   snacks.include? do |snack| 
     cheese_types.find do |cheese|
-      if cheese.eql? snack
+      cheese.eql? snack
         
       else
         nil
